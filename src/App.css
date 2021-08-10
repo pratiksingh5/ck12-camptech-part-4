@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+.back{
+    background-color: #f4f4f4;
+ 
+}
+.nav{
+    border-radius: 5px;
+}
+
+.links a{
+text-decoration: none;
+color: black;
+margin-right: 1rem;
+}
+.profilepic{
+    width: 130px;
+    height: 130px;
+    background-image: url('https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+.profile{
+    text-align: center;
+    padding: 2rem 0.5rem;
+    background-color: white;
+    border-radius: 5px;
+}
+.profile ul{
+    text-align: left;
+    margin: 2rem 0;
+}
+.logo{
+    font-weight: 800;
+}
+
+.button{
+    padding: 7px 25px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 1rem;
+    font-size: 14px;
+    background-color: #549934;
+    color: white;
+}
+.button:hover{
+    background-color: rgb(18, 119, 18);
+}
+.footer{
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.pages{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5%;
+    min-height: 100%;
+}
+
+
+
+.buttons{
+    width: 100%;
+    margin: 3rem auto;
+   font-weight: 600;
+}
+
+
+
+.btn:hover{
+    background-color: #154779;
+    cursor: pointer;
+}
+
+.btn:active, .btn:focus{
+    outline: none;
+    border: none;
+}
+
+
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 6rem;
+}
+
+.item-container{
+    overflow: hidden;
+}
+
+.item-con{
+    width: 210px;
+    padding: 1.2rem 1.2rem;
+    background-color: #ffffff;
+    
+}
+
+.item-container > img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.item-con h2{
+    font-size: 1rem;
+}
+.item-con p{
+    font-size: 0.6rem;
+}
+
+.enrollbtn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+}
+
+.quiz{
+    background-color: white;
+    height: 70vh;
+    border-radius: 5px;
+}
+
+.quizcard{
+    padding: 1rem 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 210px;
+  margin-top: 2rem;
+}
+.quizpic{
+    width: 180px;
+    height: 120px;
+    background-image: url('https://htmlcssmonk.com/wp-content/uploads/2020/10/cssquiz.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.quizcard ul li{
+    display: flex;
+    justify-content: space-between;
+   margin-left: -2rem;
+}
+ul li span{
+font-weight: 700;
+}
+.start{
+    padding: 5px 20px;
+    border: none;
+    background-color: #3f8b1e;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.start:hover{
+    background-color: rgb(16, 122, 16);
+}
+/* quiz */
+
+
+.app {
+    width: 100%;
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 10px 10px 42px 0px rgba(192, 192, 192, 0.308);
+   
+    
+  }
+  .score-section {
+    font-size: 24px;
+    text-align: left;
+  }
+  
+ 
+  .question-section {
+    width: 100%;
+    position: relative;
+  }
+  
+  .question-count {
+    margin-bottom: 20px;
+  }
+  
+  .question-count span {
+    font-size: 22px;
+  }
+  
+  .question-text {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+ 
+  
+  /* ANSWERS/RIGHT SECTION */
+  .answer-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .answer-section button {
+    width: 100%;
+    font-size: 20px;
+    color: #353535;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  button:hover {
+    background-color:rgb(17, 136, 17);
+    color: white;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+
+  .contact{
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+  }
+  .contact i{
+      color: rgb(73, 151, 73);
+      margin-right: 12px;
+  }
+  .help{
+background-color:#3f8b1e ;
+color: white;
+padding: 12px 26px;
+border-radius: 5px;
+border: none;
+  }
